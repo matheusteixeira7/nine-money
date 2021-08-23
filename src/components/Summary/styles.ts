@@ -1,11 +1,16 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+  max-width: 1120px;
+  margin: 0 auto;
+  width: 100%;
+`;
+
+export const Content = styled.div`
   display: grid;
+  margin-top: -6.5rem;
   gap: 2rem;
   grid-template-columns: repeat(3, 1fr);
-  margin: -6.5rem auto;
-  max-width: 1120px;
   padding: 2rem;
 
   div {
